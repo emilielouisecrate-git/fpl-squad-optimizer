@@ -3,7 +3,7 @@
 An end-to-end pipeline that predicts Fantasy Premier League points from player form,
 then uses integer linear programming to build the mathematically optimal 15-player
 squad under real FPL constraints (£100m budget, position quotas, max 3 players per
-club) — applied to the actual, unplayed **2026-27 Gameweek 1** (kickoff 21 August 2026).
+club), applied to the actual, unplayed **2026-27 Gameweek 1** (kickoff 21 August 2026).
 
 Built in R, from raw data to optimizer, gameweek predictions checkable against reality
 once the season starts.
