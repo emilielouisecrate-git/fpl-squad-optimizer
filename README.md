@@ -35,7 +35,7 @@ Honestly — barely, and that's a real finding worth reporting rather than hidin
 
 The random forest essentially ties the naive "just use recent form" baseline. Increasing
 `mtry` (giving the forest more features to consider per split) made things *worse*,
-which rules out under-fitting as the cause — the ceiling here appears to be genuine
+which rules out under-fitting as the cause, the ceiling here appears to be genuine
 noise in FPL points themselves (a hat-trick, a red card, or a bonus-point rounding
 decision can swing a result in ways no rolling average can anticipate), not a tunable
 hyperparameter.
@@ -51,7 +51,7 @@ hyperparameter.
 | `total_points_roll3` | 5.7 |
 
 Recent **BPS** (the underlying bonus-points-system score) is the single strongest
-predictor — more than raw points scored. That makes sense on reflection: BPS is
+predictor, more than raw points scored. That makes sense on reflection: BPS is
 itself a composite measure of a player's overall match involvement, so it captures
 more signal than points alone, which can be lumpy (one big haul vs. steady returns).
 Past points scored being the *weakest* of the five features was a genuine surprise
@@ -59,7 +59,7 @@ going in — worth stating honestly rather than pretending it was expected.
 
 ## The actual output: an optimal GW1 2026-27 squad
 
-Solved via integer linear programming — 450 candidate players (this season's squads,
+Solved via integer linear programming. 450 candidate players (this season's squads,
 matched against last season's form), maximising predicted points subject to:
 £100m budget, exactly 2 GK / 5 DEF / 5 MID / 3 FWD, and no more than 3 players from
 any single club.
