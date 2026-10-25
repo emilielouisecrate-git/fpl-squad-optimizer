@@ -94,13 +94,6 @@ checkable prediction, not hindsight.
 - Historical training data and this season's squad/price lists: [vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League),
   a community-maintained mirror of the official FPL API
 
-## Repo structure
-
-```
-├── fpl_squad_optimizer.ipynb   # full R notebook: features, model, optimizer
-└── data/
-    └── optimal_gw1_squad.csv   # the final selected squad
-```
 
 ## Limitations and honest caveats
 
