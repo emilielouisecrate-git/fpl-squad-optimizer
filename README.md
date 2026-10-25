@@ -25,7 +25,7 @@ once the season starts.
 
 ## Results: does the model actually help?
 
-Honestly — barely, and that's a real finding worth reporting rather than hiding.
+Honestly, barely, and that's a real finding worth reporting rather than hiding.
 
 | Model | Test MAE (GW29-37) |
 |---|---|
